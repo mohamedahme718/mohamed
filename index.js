@@ -9,11 +9,11 @@ const { joinVoiceChannel } = require('@discordjs/voice');
 client.on('ready', () => {
     
     setInterval( async () => {
-    client.channels.fetch("وهنا اي دي الروم") 
+    client.channels.fetch("1324093404862484591") 
      .then((channel) => { 
       const VoiceConnection = joinVoiceChannel({
        channelId: channel.id, 
-       guildId: "وهنا اي دي السيرفر", 
+       guildId: "756646381028114604", 
        selfMute: true,
        selfDeaf: true,
        adapterCreator: channel.guild.voiceAdapterCreator 
@@ -22,4 +22,4 @@ client.on('ready', () => {
     }, 1000)
 }); 
 //https://ra3dstudio.com CopyRight Codes
-client.login("حط هنا توكين حسابك يا احمد");
+client.login("MTIwNjczNjIzMTY3ODA4MzA5Mg.GmnyET.NvpIqj0rOBNDL68vom9f2gs3BBaHC_bWDvVdAk");
